@@ -59,11 +59,11 @@ const Wrapper = styled.div`
   box-shadow: inset 0px 2px 4px ${COLORS.transparentGray35};
   border-radius: var(--radius);
   padding: var(--padding);
-  /* Trim off corners when progress bar is near full */
 `;
 
 const BarWrapper = styled.div`
   border-radius: 4px;
+  /* Trim off corners when progress bar is near full */
   overflow: hidden;
 `;
 
